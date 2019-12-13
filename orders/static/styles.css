@@ -1,0 +1,133 @@
+#pizza_background {
+    position: absolute;
+    z-index:-99;
+}
+#category {
+    position: absolute;
+    top:33%;
+    width:15%;
+}
+#category a{
+    color:white;
+    background-color: rgb(41, 41, 46);
+}
+#category a:hover{
+    background-color: rgb(41, 41, 46);
+}
+#logo {
+ 
+    padding:0px;
+    font-family: webLogo ;
+    font-size: 110px;
+    text-shadow: 3px 3px 3px rgb(211, 87, 5);
+}
+#logo a:link, #place_order:link, #confirm_order:link {
+    color:rgb(253, 170, 28);}
+#logo a:visited, #place_order:visited, #confirm_order:visited {
+    color:rgb(253, 170, 28);
+}
+#logo a:hover, #place_order:hover, #confirm_order:hover {
+    color:rgb(253, 170, 28);   
+    text-decoration: none;
+}
+#logo a:active, #place_order:active, #confirm_order:active {
+    color:rgb(253, 170, 28);}
+@font-face {
+    font-family: webLogo;
+    src: url(CaviarDreams.ttf);
+}
+
+#username {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    position: fixed;
+    left: 0;
+    width: 3000px;
+}
+th {
+    border-bottom: 1px solid white;
+}
+#checkout {
+    color:white;
+    position: absolute;
+    top:33%;
+    right:0%;
+    width:23%;
+    padding: 20px;
+    border-radius: 1em;
+    background-color: rgb(41, 41, 46) !important;
+}
+
+.plus {
+    height: 2em;
+}
+
+.plus:hover {
+    cursor: pointer;
+    filter: brightness(80%)
+}
+
+.table-small td a {
+    float: right;
+}
+
+li {
+    list-style-type: none;
+}
+#place_order div:hover,#confirm_order div:hover{
+    box-shadow: 0px 0px 10px white;
+}
+
+#my_orders_container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+#my_orders_container > div {
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    border-radius: 1em;
+    padding: 1em;
+    margin-top: 3em;
+}
+
+#checkout{
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+}
+
+.bg-gray {
+    background-color: darkgray;
+}
+
+.bg-dark {
+    background-color: #333;
+}
+
+.h-100 {
+    height: 100vh !important;
+}
+
+.my-form {
+    border-radius: 1em;
+    box-shadow: 0 .5em 1em black;
+    color: white;
+}
+
+#center_box {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+#logo {
+    height: 200px;
+    padding: 10px;
+    filter: grayscale(100%);
+    filter: invert(100%);
+}
+
+.mt-15 {
+    margin-top: 15em !important;
+}
